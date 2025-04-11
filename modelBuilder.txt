@@ -1,0 +1,15 @@
+   modelBuilder
+        .Entity<Patient>()
+        .Property(e => e.Gender)
+        .HasConversion(
+            v => v.ToString(),
+            v => (Gender)Enum.Parse(typeof(Gender), v));
+            modelBuilder.HasSequence<int>("MedicalRecordNumbers")
+              .StartsAt(100000)
+              .IncrementsBy(10);
+            modelBuilder.Entity<Patient>()
+                .Property(p => p.MedicalRecordNumber)
+                .HasDefaultValueSql("NEXT VALUE FOR MedicalRecordNumbers");
+
+
+  .Annotation("Sqlite:Autoincrement", "100000, 10"),

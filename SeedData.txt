@@ -1,0 +1,76 @@
+INSERT INTO "Patients" (
+    "Id", "MedicalRecordNumber", "FirstName", "MiddleInitial", "LastName", "Birthday",
+    "Gender", "Phone", "Email", "Address", "Occupation",
+    "EmergencyContactName", "EmergencyContactNumber",
+    "PrimaryProvider", "InsuranceProvider", "InsurancePolicyNumber"
+) VALUES
+(
+    'a1f6b9d2-0d34-42e4-8fd7-123456789001', 100234,
+    'Emily', 'R', 'Thompson', '1985-07-12',
+    2, '(415) 555-3412', 'emily.thompson85@example.com', '123 Maple St, San Francisco, CA 94110',
+    'Graphic Designer', 'James Thompson', '(510) 555-9887',
+    'Dr. Amanda Liu', 'Blue Cross Blue Shield', 'BCBS9384732'
+),
+(
+    'b2c7a3e4-93d1-4d89-b882-123456789002', 100235,
+    'Michael', NULL, 'Reyes', '1990-11-03',
+    1, '(312) 555-7845', 'm.reyes90@example.com', '456 Oak Ave, Chicago, IL 60622',
+    'Software Engineer', 'Anna Reyes', '(773) 555-2189',
+    'Dr. Raj Patel', 'UnitedHealthcare', 'UHC8372649'
+),
+(
+    'c3d8f1a6-1a45-46c1-bc77-123456789003', 100236,
+    'Sophia', 'L', 'Nguyen', '2000-03-28',
+    2, '(213) 555-0983', 'sophia.nguyen@example.com', '789 Pine Rd, Los Angeles, CA 90012',
+    'Student', 'Mai Nguyen', '(626) 555-4411',
+    'Dr. Karen Holmes', 'Kaiser Permanente', 'KP12345678'
+),
+(
+    'd4e7b2f1-9e63-4b69-9062-123456789004', 100237,
+    'David', 'J', 'Miller', '1977-01-21',
+    1, '(817) 555-6723', 'david.miller77@example.com', '1022 Birch St, Fort Worth, TX 76102',
+    'Teacher', 'Linda Miller', '(214) 555-3456',
+    'Dr. Alan Cooper', 'Aetna', 'AET8325643'
+),
+(
+    'e5f9c3a4-1ab5-42de-b2d1-123456789005', 100238,
+    'Olivia', NULL, 'Bennett', '1995-09-30',
+    2, '(503) 555-2190', 'olivia.bennett95@example.com', '567 Cedar Ln, Portland, OR 97203',
+    'Nurse', 'Samantha Bennett', '(503) 555-8932',
+    'Dr. Peter Shaw', 'Cigna', 'CIG5489321'
+),
+(
+    'f6a0d5c3-3f98-43d7-8481-123456789006', 100239,
+    'Jacob', 'L', 'Martinez', '1982-02-14',
+    1, '(404) 555-5320', 'jacob.martinez82@example.com', '1284 Maple Dr, Atlanta, GA 30316',
+    'Project Manager', 'Maria Martinez', '(404) 555-9981',
+    'Dr. Susan Green', 'Humana', 'HUM7943851'
+),
+(
+    'g7b9e8d4-29d4-48d9-bc31-123456789007', 100240,
+    'Ava', 'K', 'Williams', '1992-06-19',
+    2, '(646) 555-8934', 'ava.williams92@example.com', '346 West 12th St, New York, NY 10014',
+    'Public Relations', 'Henry Williams', '(212) 555-3278',
+    'Dr. Emily Turner', 'Oscar Health', 'OHH2348902'
+),
+(
+    'h8c7f1b2-65f2-44a9-bec5-123456789008', 100241,
+    'Ethan', 'D', 'Smith', '1988-04-05',
+    1, '(719) 555-7362', 'ethan.smith88@example.com', '2345 Pine Ave, Colorado Springs, CO 80903',
+    'Engineer', 'Sarah Smith', '(719) 555-6724',
+    'Dr. Melissa Clark', 'Anthem', 'ANT2389451'
+),
+(
+    'i9d6c0a1-72d8-48a3-b3b6-123456789009', 100242,
+    'Charlotte', NULL, 'Johnson', '1998-12-11',
+    2, '(303) 555-1523', 'charlotte.johnson98@example.com', '1985 Elm Blvd, Denver, CO 80220',
+    'Lawyer', 'Edward Johnson', '(303) 555-3479',
+    'Dr. Robert Hines', 'Blue Shield', 'BS1238942'
+),
+(
+    'j0f5a2d1-6ac7-43f8-bb8d-123456789010', 100243,
+    'William', 'P', 'Brown', '1975-08-23',
+    1, '(305) 555-9108', 'william.brown75@example.com', '890 Ocean Dr, Miami, FL 33139',
+    'Architect', 'Rebecca Brown', '(305) 555-4732',
+    'Dr. Carla Smith', 'UnitedHealthcare', 'UHC7591840'
+);
